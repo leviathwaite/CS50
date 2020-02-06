@@ -13,22 +13,22 @@ mario
 less
 more
 
-**Problem Set 2: Crypto** (Algorithms)
+**Problem Set 2: Crypto** (C, Algorithms)
 caesar
 vigenere
 crack
 
-**Problem Set3: Music** (Memory)
+**Problem Set3: Music** (C, Memory)
 music
 
-**Problem Set 4: Forensics** (Data Structures)
+**Problem Set 4: Forensics** (C, Data Structures)
 whodunit
 resize
 less
 more
 recover
 
-**Problem Set 5: Mispellings** (HTTP)
+**Problem Set 5: Mispellings** (C)
 speller
 hashtable
 trie
@@ -49,8 +49,10 @@ similarities
 less
 more
 
-**Problem Set 7: C$50 Finance** (Python)
+**Problem Set 7: C$50 Finance** (Python, SQL)
 finance
 
-**Problem Set 8: Mashup** (SQL)
+**Problem Set 8: Mashup** (JavaScript)
 mashup
+
+
