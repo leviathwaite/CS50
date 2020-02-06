@@ -5,7 +5,7 @@ CS50's Introduction to Computer Science - 2013 solutions
 
 Solving the problem sets yourself is the only way to eventual mastery.
 
-**Problem Set 1: C**
+**Problem Set 1: C** (C)
 hello
 cash
 credit
@@ -13,28 +13,28 @@ mario
 less
 more
 
-**Problem Set 2: Crypto**
+**Problem Set 2: Crypto** (Algorithms)
 caesar
 vigenere
 crack
 
-**Problem Set3: Music**
+**Problem Set3: Music** (Memory)
 music
 
-**Problem Set 4: Forensics**
+**Problem Set 4: Forensics** (Data Structures)
 whodunit
 resize
 less
 more
 recover
 
-**Problem Set 5: Mispellings**
+**Problem Set 5: Mispellings** (HTTP)
 speller
 hashtable
 trie
 bloom filter
 
-**Problem Set 6: Déjà vu**
+**Problem Set 6: Déjà vu** (Dynamic Programming, Python)
 sentimental
 hello
 cash
@@ -49,8 +49,8 @@ similarities
 less
 more
 
-**Problem Set 7: C$50 Finance**
+**Problem Set 7: C$50 Finance** (Python)
 finance
 
-**Problem Set 8: Mashup**
+**Problem Set 8: Mashup** (SQL)
 mashup
