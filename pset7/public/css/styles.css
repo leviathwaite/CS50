@@ -1,0 +1,102 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* center contents */
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#middle td
+{
+    /* left-align tables' cells */
+    text-align: left;
+}
+
+#middle .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+.nav-pills
+{
+   display:inline-block;
+   list-style:none;
+   list-style:none;
+   text-align:center;
+   padding:10px 0 10px 0;
+  margin:-1px -5px -1px -1px;
+}
+
+.nav-pills li a
+{
+    text-decoration: none;
+}
+
+.nav-pills li
+{
+  text-decoration: none;
+  background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+  border:1px solid #ccc;
+  border-radius:3px;
+  width:80px;
+  font-family:Helvetica, sans-serif;
+  padding:2px 0 2px 0;
+  /*margin:-1px -5px -1px -1px;*/
+  cursor:pointer;
+  
+}
+
+.nav-pills li:hover{
+list-style:none;
+  text-decoration: none;
+  border:1px solid grey;
+  border-radius:3px;
+  background:rgba(55,55,55,.1);
+}
+
+ tr:nth-child(even)
+{
+    background:lightgrey;
+}
+
+#cash
+{
+    background:grey;
+}
+
+
+   

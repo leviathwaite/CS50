@@ -1,0 +1,38 @@
+0. What is pneumonoultramicroscopicsilicovolcanoconiosis?
+According to Merriam-Webster's Medical Dictionary,
+pneumonoultramicroscopicsilicovolcanoconiosis is a
+pneumoconiosis caused by inhalation of very fine
+silicate or quartz dust.
+
+1. According to its man page, what does getrusage do?
+returns resources usage measured
+
+2.Per that same man page, how many members are in a variable of type struct rusage?
+16
+
+3. Why do you think we pass before and after by reference (instead of by value) to calculate, even though we’re not changing their contents?
+To save time and space, using const cast protects orginal value from being changed.
+
+4. Explain as precisely as possible, in a paragraph or more, how main goes about reading words from a file. In other words, convince us that you indeed understand how that function’s for loop works.
+Until it reaches end of file it reads each line character by character storing it in 
+word and ensuring it is not longer than LENGTH.
+
+5. Why do you think we used fgetc to read each word’s characters one at a time rather than use fscanf with a format string like "%s" to read whole words at a time? Put another way, what problems might arise by relying on fscanf alone?
+To avoid problems with punctuation and escape characters
+
+6. Why do you think we declared the parameters for check and load as const?
+using const cast protects orginal value from being changed.
+
+7. What data structure(s) did you use to implement your spell-checker? Be sure not to leave your answer at just "hash table," "trie," or the like. Expound on what’s inside each of your "nodes."
+Used hash table type with a 260 unit array of nodes. Sorted by starting letter and length.
+handling collisions with separate chaining linked list.
+
+8. How slow was your code the first time you got it working correctly?
+2.68
+
+9. What kinds of changes, if any, did you make to your code over the course of the week in order to improve its performance?
+more buckets
+
+10. Do you feel that your code has any bottlenecks that you were not able to chip away at?
+Using hash_function to sort into more buckets to even out word quanties per bucket.
+Would like to try a trie in the future.

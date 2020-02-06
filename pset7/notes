@@ -1,0 +1,65 @@
+$s = lookup("AAPL")
+returns an associative array
+symbol
+name 
+price
+
+$stock = lookup($_POST["symbol"]);
+if valid returns 
+symbol
+name 
+price
+
+another quote.php in template dir
+at min display quote
+ensure stock is valid 
+    else apologize
+    
+print("Price: " . $s["price"]);
+
+format to 2 to 4 decimal places:
+    number_format function
+    
+    ex. number_format($number, 2, '.', ',') // 2 can be replace with numbers after .
+    
+    portfolio
+    
+    portfolio-table
+    id = id from users table
+    symbol
+    shares
+    
+    // query returns an array of rows
+    $rows = query("SELECT symbol, shares FROM portfolio
+        WHERE id = ?", $_SESSION["id"]);
+        
+    foreach ($rows as $row)
+    {
+        print("<tr>");
+        print("<td>{$row["symbol"]}</td>");
+        print("<td>{$row["shares"]}</td>");
+        print("</tr>");
+    }
+    
+    index.php calls portfolio.php
+    portfolio.php is a template
+    
+    needed vars:
+    
+    each of the stocks in portfolio, including number of shares and current value(price times current value. 
+    // TODO maybe bought for price
+    
+    users cash balance
+    
+    mysql insert
+    INSERT INTO `pset7`.`portfolio` (`id`, `symbol`, `shares`) VALUES ('1', 'CAJ', '5'), ('2', 'nvr', '20');
+    
+    
+    mysql select
+    SELECT * FROM `portfolio table` WHERE id = 1
+    same
+    SELECT id, symbol, shares FROM `portfolio table` WHERE id = 1
+    
+    search one stock
+    SELECT shares FROM `portfolio table` WHERE id = 1 AND symbol = 'CAJ'
+    if does not have shares in symbol empty returned

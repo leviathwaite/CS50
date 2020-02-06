@@ -1,0 +1,4 @@
+linear probing
+
+seperate chaining
+if indices full make array of node pointers
